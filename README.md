@@ -1,9 +1,24 @@
+# Facial Recognition and attendance system
+
+> **Abstract** : This project is made using python and libraries in python like tkinter etc. First images are taken of student for database and are converted to yml form then attendance can be taken by facial recognition.
+
+### Project Members
+1. NAIK ARFAT IRFAN  [ Team Leader ] 
+2. PANT MANASVI  
+3. ANSARI IQRA AFZAL IMAM 
+4. KHAN FARHAN NISAR 
+
+### Project Guides
+1. PROF. SAKSHI SUKALE  [ Primary Guide ]
+
+
 ### To install necessary dependencies 
 - type `pip install -r requirements.txt` in command prompt or vs code terminal
 - Create a `TrainingImage` folder in a project folder.
 - Run `attandance.py` file
 
-### Project flow & explaination
+
+### Deployment Steps
 - After you run the project you have to register your face so that system can identify you, so click on register new student
 - After you click a small window will pop up in that you have to enter you ID and name and then click on `Take Image` button
 - After clicking `Take Image` button A camera window will pop up and it will detect your Face and take upto 50 Images(you can change the number of Image it can take) and stored in the folder named `TrainingImage`. more you give the image to system, the better it will perform while recognising the face.
@@ -13,3 +28,7 @@
 - it will create `.csv` file for every subject you enter and seperate every `.csv` file accoriding the subject
 - You can view the attendance after clicking `View Attendance` button. It will show record in tabular format.
 
+### Subject Details
+- Class : SE (ECS) Div A - 2024-2025
+- Subject : Mini project - 1B (MP-1B(S)(2019))
+- Project Type : Mini Project
